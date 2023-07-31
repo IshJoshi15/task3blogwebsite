@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nevigation {
+    margin-top: 25px;
+    padding: 0 12px;
+    font-family: var(--font1);
+    /*height: 60px;*/
+    background-color: rgb(232, 154, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    padding: 0 10px;
+    font-size: 45px;
+    width: 200;
+    display: flex;
+    font-weight: bolder;
+    display: flex;
+
+}
+
+.left ul {
+    padding: 0 55px;
+    display: flex;
+    align-items: center;
+    margin: 10 70px;
+    font-size: 25px;
+}
+
+.left ul li {
+    list-style: none;
+    margin: 12px;
+    font-family: var(--font2);
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.left ul li a:hover {
+    color: rgb(196, 13, 162);
+    font-weight: bolder;
+
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    background-color: rgb(180, 230, 244);
+    margin-top: 20px;
+    padding: 12px;
+}
+
+
+.content-left {
+    padding: 0 15px;
+    /* font-family: var(--font1);*/
+    font-size: 17px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.content-right {
+    padding: 20px 0;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.content-right img {
+    height: 320px;
+    width: 380px;
+    border: 2px solid black;
+    border-radius: 250px;
+}
+
+.home-articles {
+    /* height: 330px;*/
+    background-color: rgb(251, 173, 194);
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+.home-articles img {
+    align-self: center;
+    padding-top: 10px;
+}
+
+.article {
+    display: flex;
+
+}
+
+.article img {
+    padding: 0 15px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.article-content {
+    align-self: center;
+}
+
+.article-content a {
+    text-decoration: none;
+    color: rgb(50, 12, 116);
+    transition: 0.3s;
+}
+
+.article-content a:hover {
+    color: rgb(221, 35, 57);
+    font-weight: bolder;
+}
+
+
+
+
+.footer {
+    height: 50px;
+    background-color: rgb(37, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    flex-direction: column;
+}
